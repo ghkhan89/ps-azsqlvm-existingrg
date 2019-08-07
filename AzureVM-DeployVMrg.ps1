@@ -11,26 +11,26 @@ login-AzureRMAccount
 Clear-Host
 
 ## VM Credentials
-$username = "xsql"
-$password = "P-assword@123"
+$username = ""
+$password = ""
 
 ## Add VM to Availability Set - 0(No) & 1(Yes)
 $AVFlag = 0 
-$AVName = "NAvSet"
+$AVName = ""
 
 ## Resource Loaction
-$Location = "southindia"
-$ResourceGroupName = "TempShare"
+$Location = ""
+$ResourceGroupName = ""
 
 ## Storage
-$StorageName = "tempsharedisks"
+$StorageName = ""
 
 ## Network
-$VNetName = "TempShare-vnet"
+$VNetName = ""
 $TCPIPAllocationMethod = "Dynamic"
 
 ## VM Info
-$VMNames = "SQLRepro"
+$VMNames = ""
 $VMSize = "Standard_DS3_v2"
 
 ## Image
@@ -39,12 +39,12 @@ $OfferName = "SQL2017-WS2016"
 $Sku = "SQLDEV"
 $Version = "latest"
 
-# Additional Disk on SQL VM
+# Additional Disk on VM
 $DiskNum = 0
 $DiskSizeGB = 1024
 
-# License Type = 1 AHUB | 0 PayasGo
-$AHUB = 1
+# Windows License Type - 1(AHUB) & 0(PayAsGo)
+$AHUB = 0
 
 If($AVFlag -eq 1)
 {
