@@ -1,4 +1,5 @@
 ﻿<#
+	.Description: Deploy Azure VM to existing Resource Group
 	.How to Use: Update the variables and then run the script
 	.Written By: Ghufran Khan		
 	.More Scripts by Me: https://github.com/ghkhan89?tab=repositories
