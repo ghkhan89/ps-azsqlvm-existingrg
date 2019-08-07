@@ -1,6 +1,5 @@
 ﻿<#
 	.How to Use: Update the variables and then run the script
-	.Made By: Ghufran Khan
 	.Written By: Ghufran Khan		
 	.More Scripts by Me: https://github.com/ghkhan89?tab=repositories
 	.Find me on Facebook: https://www.facebook.com/GhufranKhan89
