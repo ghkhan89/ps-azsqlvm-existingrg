@@ -18,28 +18,28 @@ $password = ""
 $AVFlag = 0 
 $AVName = ""
 
-## Resource Loaction
+## ResourceGroup Location
 $Location = ""
 $ResourceGroupName = ""
 
-## Storage
+## Storage Account info
 $StorageName = ""
 
-## Network
+## Virtual Network info
 $VNetName = ""
 $TCPIPAllocationMethod = "Dynamic"
 
-## VM Info
+## VM Detials
 $VMNames = ""
 $VMSize = "Standard_DS3_v2"
 
-## Image
+## VM Image info
 $PublisherName = "MicrosoftSQLServer"
 $OfferName = "SQL2017-WS2016"
 $Sku = "SQLDEV"
 $Version = "latest"
 
-# Additional Disk on VM
+# Number of Additional Disk with size
 $DiskNum = 0
 $DiskSizeGB = 1024
 
