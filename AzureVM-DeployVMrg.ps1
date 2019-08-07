@@ -6,7 +6,7 @@
 	.Find me on Facebook: https://www.facebook.com/GhufranKhan89
 #>
 
-#login-AzureRMAccount
+login-AzureRMAccount
 
 Clear-Host
 
